@@ -2092,5 +2092,5 @@ static function doPrint(GraphQL\Type\Schema $schema)
  * @param Schema $schema
  * @return string
  */
-static function printIntrosepctionSchema(GraphQL\Type\Schema $schema)
+static function printIntrospectionSchema(GraphQL\Type\Schema $schema)
 ```

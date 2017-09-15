@@ -644,7 +644,7 @@ type Root {
         ]);
 
         $schema = new Schema(['query' => $root]);
-        $output = SchemaPrinter::printIntrosepctionSchema($schema);
+        $output = SchemaPrinter::printIntrospectionSchema($schema);
         $introspectionSchema = <<<'EOT'
 schema {
   query: Root

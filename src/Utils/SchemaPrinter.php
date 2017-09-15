@@ -35,7 +35,7 @@ class SchemaPrinter
      * @param Schema $schema
      * @return string
      */
-    public static function printIntrosepctionSchema(Schema $schema)
+    public static function printIntrospectionSchema(Schema $schema)
     {
         return self::printFilteredSchema($schema, [__CLASS__, 'isSpecDirective'], [__CLASS__, 'isIntrospectionType']);
     }
